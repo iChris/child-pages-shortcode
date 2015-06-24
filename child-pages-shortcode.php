@@ -204,7 +204,7 @@ private function get_template()
     $html .= '<div class="child_page-container">';
     $html .= '<div class="post_thumb"><a href="%post_url%">%post_thumb%</a></div>';
     $html .= '<div class="post_content">';
-    $html .= '<h3><a href="%post_url%">%post_title%</a></h3>';
+    $html .= '<h3><a href="%post_url%">%post_title% ❯</a></h3>';
     // $html .= '<div class="post_excerpt">%post_excerpt%</div>';
     $html .= '</div><!-- .post_content  -->';
     $html .= '</div><!-- .child_page-container -->';
